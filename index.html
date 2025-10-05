@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
     <script>
-           const menuIcon = document.getElementById('menuicon');
-        const navLinks = document.getElementById('.links');
+     <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const menuIcon = document.getElementById('menuicon');
+    const navLinks = document.querySelector('.links');
 
-        menuIcon.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
+    menuIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
     });
+});
+</script>
+
     </script>
 </head>
 <body>
